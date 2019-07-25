@@ -1,0 +1,31 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String args[]){
+
+        Scanner in = new Scanner(System.in);
+        System.out.print("Text: ");
+        String a = in.nextLine();
+        int x = a.length();
+
+
+        Scanner on = new Scanner(System.in);
+        System.out.print("Text: ");
+        String b = on.nextLine();
+        int y = b.length();
+
+        if(x>y)
+            System.out.print(a);
+
+        else if(x<y)
+            System.out.print(b);
+
+        else
+            System.out.println(a);
+        System.out.println(b);
+    }
+
+}
